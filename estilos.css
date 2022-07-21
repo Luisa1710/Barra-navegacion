@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: orange;
+    padding: 10px;
+}
+
+
+.navbar{
+    display: inline-block;
+    background-color:orange ;
+    color: #fff;
+    padding:10px 30px ;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar:hover {
+
+    background-color:rgb(247, 210, 140) ;
+
+}
+
+@media (max-width: 600px){
+.navbar{
+    background-color:rgb(214, 217, 65) ;
+}
+.navbar:hover {
+
+    background-color:rgb(247, 210, 140) ;
+
+}
+nav {
+    background-color:rgb(214, 217, 65) ;
+    flex-direction: column;
+}
+
+
+}
